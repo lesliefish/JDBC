@@ -52,3 +52,15 @@ public class FirstExample {
         }
     }
 }
+
+
+/*
+
+Connecting to database...
+Creating statement...
+ID: 100, Age: 18, First: Zara, Last: Ali
+ID: 101, Age: 25, First: Mahnaz, Last: Fatma
+ID: 102, Age: 30, First: Zaid, Last: Khan
+ID: 103, Age: 28, First: Sumit, Last: Mittal
+
+* */
