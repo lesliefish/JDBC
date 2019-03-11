@@ -1,12 +1,6 @@
 package com.lesliefish;
 
-import com.lesliefish.test01firstexample.FirstExample;
-import com.lesliefish.test02datetime.DateTimeTester;
-import com.lesliefish.test03transactions.TransactionsTester;
-import com.lesliefish.test04batching.BatchingTester;
-import com.lesliefish.test05preparedstatement.PreparedStatementTester;
-import com.lesliefish.test06callablestatement.CallableStatementTester;
-import com.lesliefish.test07streamingdata.StreamingDataTester;
+import com.lesliefish.test.test07streamingdata.StreamingDataTester;
 
 public class Main {
 

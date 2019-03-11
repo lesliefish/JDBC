@@ -1,4 +1,4 @@
-package com.lesliefish.test02datetime;
+package com.lesliefish.test.test02datetime;
 
 public class DateTimeTester {
     public static void test() {

@@ -1,4 +1,4 @@
-package com.lesliefish.test05preparedstatement;
+package com.lesliefish.test.test05preparedstatement;
 
 import java.sql.*;
 

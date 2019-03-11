@@ -1,4 +1,4 @@
-package com.lesliefish.test04batching;
+package com.lesliefish.test.test04batching;
 
 import java.sql.*;
 

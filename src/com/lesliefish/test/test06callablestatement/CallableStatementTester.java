@@ -1,4 +1,4 @@
-package com.lesliefish.test06callablestatement;
+package com.lesliefish.test.test06callablestatement;
 
 import java.sql.*;
 

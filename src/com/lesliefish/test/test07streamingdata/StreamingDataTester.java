@@ -1,4 +1,4 @@
-package com.lesliefish.test07streamingdata;
+package com.lesliefish.test.test07streamingdata;
 
 import java.sql.*;
 import java.io.*;
@@ -26,7 +26,7 @@ public class StreamingDataTester {
 
             // 文件输入流
             File file = new File(StreamingDataTester.class.getResource("/").getPath() +
-                    "com/lesliefish/test07streamingdata/XML_Data.xml");
+                    "com/lesliefish/test/test07streamingdata/XML_Data.xml");
             long fileLength = file.length();
             FileInputStream fileInputStream = new FileInputStream(file);
 

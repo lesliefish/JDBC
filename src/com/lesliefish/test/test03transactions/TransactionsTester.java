@@ -1,4 +1,4 @@
-package com.lesliefish.test03transactions;
+package com.lesliefish.test.test03transactions;
 
 import java.sql.*;
 

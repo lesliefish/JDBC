@@ -1,4 +1,4 @@
-package com.lesliefish.test01firstexample;
+package com.lesliefish.test.test01firstexample;
 
 import java.sql.*;
 
