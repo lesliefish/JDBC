@@ -18,7 +18,6 @@ END $$
 DELIMITER ;
 
 */
-//STEP 1. Import required packages
 
 public class CallableStatementTester {
     // JDBC 驱动名称以及数据库URL
@@ -77,3 +76,13 @@ public class CallableStatementTester {
         System.out.println("Goodbye!");
     }//end main
 }//end JDBCExample
+
+
+/*
+Connecting to database...
+Creating statement...
+Executing stored procedure...
+Emp Name with ID:103 is Sumit
+Goodbye!
+
+*/
