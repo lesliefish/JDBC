@@ -6,6 +6,7 @@ import com.lesliefish.test03transactions.TransactionsTester;
 import com.lesliefish.test04batching.BatchingTester;
 import com.lesliefish.test05preparedstatement.PreparedStatementTester;
 import com.lesliefish.test06callablestatement.CallableStatementTester;
+import com.lesliefish.test07streamingdata.StreamingDataTester;
 
 public class Main {
 
@@ -15,6 +16,7 @@ public class Main {
         // TransactionsTester.test();
         // BatchingTester.test();
         // PreparedStatementTester.test();
-        CallableStatementTester.test();
+        // CallableStatementTester.test();
+        StreamingDataTester.test();
     }
 }
