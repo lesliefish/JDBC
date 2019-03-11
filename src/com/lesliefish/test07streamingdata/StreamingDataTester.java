@@ -93,3 +93,17 @@ public class StreamingDataTester {
         statement.executeUpdate(streamingDataSql);
     }//end createXMLTable
 }//end JDBCExample
+
+/*
+Connecting to database...
+Creating XML_Data table...
+<?xml version="1.0"?>
+<Employee>
+    <id>100</id>
+    <first>Zara</first>
+    <last>Ali</last>
+    <Salary>10000</Salary>
+    <Dob>18-08-1990</Dob>
+</ Employee>
+Goodbye!
+*/
