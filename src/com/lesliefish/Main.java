@@ -1,6 +1,6 @@
 package com.lesliefish;
 
-import com.lesliefish.test.test07streamingdata.StreamingDataTester;
+import com.lesliefish.example.ex01CreateDatabase.CreateDatabaseTester;
 
 public class Main {
 
@@ -11,6 +11,8 @@ public class Main {
         // BatchingTester.test();
         // PreparedStatementTester.test();
         // CallableStatementTester.test();
-        StreamingDataTester.test();
+        // StreamingDataTester.test();
+
+        CreateDatabaseTester.test();
     }
 }
