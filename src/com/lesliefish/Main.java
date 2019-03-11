@@ -1,11 +1,10 @@
 package com.lesliefish;
 
-import com.lesliefish.example.ex01CreateDatabase.CreateDatabaseTester;
-import com.lesliefish.example.ex02selectdatabase.SelectDatabaseTester;
+import com.lesliefish.example.ex03deletedatabase.DeleteDatabaseTester;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // FirstExample.test();
         // DateTimeTester.test();
         // TransactionsTester.test();
@@ -13,8 +12,6 @@ public class Main {
         // PreparedStatementTester.test();
         // CallableStatementTester.test();
         // StreamingDataTester.test();
-        // CreateDatabaseTester.test();
-
-        SelectDatabaseTester.test();
+        DeleteDatabaseTester.test();
     }
 }

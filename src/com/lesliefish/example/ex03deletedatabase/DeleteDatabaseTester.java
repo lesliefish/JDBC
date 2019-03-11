@@ -1,10 +1,10 @@
-package com.lesliefish.example.ex01CreateDatabase;
+package com.lesliefish.example.ex03deletedatabase;
 
 import java.sql.*;
 
-public class CreateDatabaseTester {
+public class DeleteDatabaseTester {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/?serverTimezone=GMT%2B8";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/students?serverTimezone=GMT%2B8";
 
     static final String USER = "root";
     static final String PASS = "    ";
@@ -14,15 +14,17 @@ public class CreateDatabaseTester {
         Statement statement = null;
         try {
             Class.forName(JDBC_DRIVER);
-            System.out.println("Connecting to database...");
-            connection = DriverManager.getConnection(DB_URL, USER, PASS);
 
-            System.out.println("Creating database...");
+            System.out.println("Connecting to a selected database...");
+            connection = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Connected database successfully...");
+
+            System.out.println("Deleting database...");
             statement = connection.createStatement();
 
-            String sql = "CREATE DATABASE STUDENTS";
+            String sql = "DROP DATABASE STUDENTS";
             statement.executeUpdate(sql);
-            System.out.println("Database created successfully...");
+            System.out.println("Database deleted successfully...");
         } catch (SQLException se) {
             se.printStackTrace();
         } catch (Exception e) {
@@ -30,8 +32,8 @@ public class CreateDatabaseTester {
         } finally {
             try {
                 if (statement != null)
-                    statement.close();
-            } catch (SQLException se2) {
+                    connection.close();
+            } catch (SQLException se) {
             }
             try {
                 if (connection != null)
@@ -41,12 +43,5 @@ public class CreateDatabaseTester {
             }//end finally try
         }//end try
         System.out.println("Goodbye!");
-    }//end test
-}
-
-/*
-Connecting to database...
-Creating database...
-Database created successfully...
-Goodbye!
-*/
+    }//end
+}//end
