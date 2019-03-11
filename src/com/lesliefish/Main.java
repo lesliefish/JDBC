@@ -5,6 +5,7 @@ import com.lesliefish.test02datetime.DateTimeTester;
 import com.lesliefish.test03transactions.TransactionsTester;
 import com.lesliefish.test04batching.BatchingTester;
 import com.lesliefish.test05preparedstatement.PreparedStatementTester;
+import com.lesliefish.test06callablestatement.CallableStatementTester;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         // DateTimeTester.test();
         // TransactionsTester.test();
         // BatchingTester.test();
-        PreparedStatementTester.test();
+        // PreparedStatementTester.test();
+        CallableStatementTester.test();
     }
 }
