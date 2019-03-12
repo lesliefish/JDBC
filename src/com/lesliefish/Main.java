@@ -1,6 +1,7 @@
 package com.lesliefish;
 
 import com.lesliefish.example.ex04createtable.CreateTableTester;
+import com.lesliefish.example.ex05droptable.DropTableTester;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         // CallableStatementTester.test();
         // StreamingDataTester.test();
         // DeleteDatabaseTester.test();
-        CreateTableTester.test();
+        // CreateTableTester.test();
+        DropTableTester.test();
     }
 }
