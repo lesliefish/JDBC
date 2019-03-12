@@ -1,6 +1,6 @@
 package com.lesliefish;
 
-import com.lesliefish.example.ex03deletedatabase.DeleteDatabaseTester;
+import com.lesliefish.example.ex04createtable.CreateTableTester;
 
 public class Main {
 
@@ -12,6 +12,7 @@ public class Main {
         // PreparedStatementTester.test();
         // CallableStatementTester.test();
         // StreamingDataTester.test();
-        DeleteDatabaseTester.test();
+        // DeleteDatabaseTester.test();
+        CreateTableTester.test();
     }
 }
