@@ -1,6 +1,7 @@
 package com.lesliefish;
 
 import com.lesliefish.example.ex06insertrecords.InsertRecordTester;
+import com.lesliefish.example.ex07fetchrecord.FetchRecordTester;
 
 public class Main {
 
@@ -15,6 +16,7 @@ public class Main {
         // DeleteDatabaseTester.test();
         // CreateTableTester.test();
         // DropTableTester.test();
-        InsertRecordTester.test();
+        // InsertRecordTester.test();
+        FetchRecordTester.test();
     }
 }
