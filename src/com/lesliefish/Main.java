@@ -4,6 +4,7 @@ import com.lesliefish.example.ex03deletedatabase.DeleteDatabaseTester;
 import com.lesliefish.example.ex07fetchrecord.FetchRecordTester;
 import com.lesliefish.example.ex08updaterecord.UpdateRecordTester;
 import com.lesliefish.example.ex09deleterecord.DeleteRecordTester;
+import com.lesliefish.example.ex10whereclause.WhereClauseTester;
 
 public class Main {
 
@@ -21,6 +22,7 @@ public class Main {
         // InsertRecordTester.test();
         // FetchRecordTester.test();
         // UpdateRecordTester.test();
-        DeleteRecordTester.test();
+        // DeleteRecordTester.test();
+        WhereClauseTester.test();
     }
 }
