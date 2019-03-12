@@ -6,6 +6,7 @@ import com.lesliefish.example.ex08updaterecord.UpdateRecordTester;
 import com.lesliefish.example.ex09deleterecord.DeleteRecordTester;
 import com.lesliefish.example.ex10whereclause.WhereClauseTester;
 import com.lesliefish.example.ex11likeclause.LikeClauseTester;
+import com.lesliefish.example.ex12sortingdata.SortingDataTester;
 
 public class Main {
 
@@ -25,6 +26,7 @@ public class Main {
         // UpdateRecordTester.test();
         // DeleteRecordTester.test();
         // WhereClauseTester.test();
-        LikeClauseTester.test();
+        // LikeClauseTester.test();
+        SortingDataTester.test();
     }
 }
